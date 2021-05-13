@@ -1,0 +1,29 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin-right:auto;
+    background-color: #fff;    
+}
+
+
+#pantalla-pago-Ico {
+    display: flex;
+    align-content: center;
+}
+
+.pago{
+       padding: 20px;
+       align-items: center;
+       text-align: center;
+         
+}
+
+h3{
+    font-family:'Open Sans', Bold;       
+}
+
+h5{
+    font-family:'Open Sans', Bold;       
+}
+
+
+
