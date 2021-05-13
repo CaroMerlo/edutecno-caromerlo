@@ -1,0 +1,43 @@
+.carousel-indicators {
+    bottom: 50px;
+}
+
+.carousel-indicators li {
+    height: 10px;
+}
+
+.carousel-item{
+    width: 100%;  
+    
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto; 
+    
+  }
+
+  .nav{
+    position: relative;
+    z-index: 1000;
+    background-color: transparent;
+ }
+
+ .header {
+    background: url(../img/carousel1.jpg) no-repeat center;
+    background-size: cover;
+    
+  }
+
+  .header .navbar {
+    background-color: transparent !important;
+  }
+
+  .fondo-cel
+  {
+    background-color: cornflowerblue; 
+  }
+
+
