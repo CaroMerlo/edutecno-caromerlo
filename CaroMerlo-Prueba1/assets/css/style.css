@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 .carousel-indicators {
     bottom: 50px;
     
@@ -23,9 +27,9 @@
 
  .header {
     background: url(../img/carousel1.jpg) no-repeat center;
-    background-size: cover;
     
-  }
+    }
+  
 
   .header .navbar {
     background-color: transparent !important;
@@ -36,4 +40,17 @@
     background-color: cornflowerblue; 
   }
 
+ .titSeccion2
+ {
+  background-color: cornflowerblue;
+  margin-bottom: 10px; 
+ }
+
+ .dropdown-divider {
+    border-color:cornflowerblue;
+ }
+
+ .container {
+    padding: 30px;
+ }
 
