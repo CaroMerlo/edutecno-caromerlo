@@ -1,0 +1,29 @@
+.main {
+    position: absolute;
+    left: 50%;
+    top: 9.5vh;
+    transform: translateX(-50%);
+  }
+  .main__container {
+    //width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main__title {
+    font-family: $Roboto;
+    color: $white;
+    text-align: center;
+    font-size:$xx-large;
+  }
+  .main__title-emphasis {
+    font-family: $Roboto;
+    font-weight: $bold;
+  }
+  .main__title-emphasis--size-xxl {
+    font-size: $xxxx-large;
+  }
+  .main__button {
+    margin: -20px;
+  }
+  
