@@ -9939,7 +9939,6 @@ img {
 body {
   height: 100vh;
   background-color: white;
-  background-image: url("/assets/img/post-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 80%;
@@ -9968,22 +9967,22 @@ nav {
   width: 100%;
 }
 nav ul {
+  text-align: right;
   list-style-type: none;
   list-style-type: none;
   margin: 0;
   padding: 15px;
+  display: inline;
 }
 nav ul li {
   display: inline;
 }
 nav ul li img {
-  align-content: center;
+  text-align: left;
   width: 20px;
 }
 nav ul li a {
-  text-align: right;
   color: #f2f2f2;
-  text-decoration: none;
   padding: 14px;
 }
 nav ul li a:hover {
@@ -9991,6 +9990,10 @@ nav ul li a:hover {
 }
 
 .content {
+  text-align: right;
+}
+
+.nav_hero {
   text-align: right;
 }
 
@@ -10033,28 +10036,22 @@ nav ul li a:hover {
   margin: -20px;
 }
 
-/* Form Layout */
-.form {
+.hero {
+  padding: 100px;
+}
+
+.main_titulo {
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+
+.main_texto {
+  text-align: left;
+  margin: 20px;
+}
+
+.section {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 30vh;
-  height: 370px;
-  width: 70vw;
-  margin-left: 0;
-  padding: 0.5rem 1rem;
-  border-radius: 3px;
-  background-color: white;
-}
-
-.form__container {
-  display: flex;
-  flex-direction: column;
-}
-
-.form__button {
-  padding-top: 0.5rem;
-  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
