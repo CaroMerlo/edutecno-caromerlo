@@ -9997,6 +9997,11 @@ nav ul li a:hover {
   text-align: right;
 }
 
+.paginacion_cont {
+  padding: 30px;
+  background-color: #ebdede;
+}
+
 .logo {
   background-position: center center;
   background-attachment: fixed;
@@ -10013,7 +10018,9 @@ nav ul li a:hover {
 .main__container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .main__title {
@@ -10034,6 +10041,8 @@ nav ul li a:hover {
 
 .main__button {
   margin: -20px;
+  text-align: left;
+  margin: 20px;
 }
 
 .hero {
@@ -10052,6 +10061,66 @@ nav ul li a:hover {
 
 .section {
   position: absolute;
+}
+
+button {
+  padding: 0.7rem 2rem;
+  border-radius: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: white;
+}
+button:hover {
+  background-color: #ef7f6d;
+  border-color: #ef7f6d;
+  color: #393e41;
+}
+
+.button_positive {
+  background-color: gray;
+  border-color: #44bba4;
+}
+.button_positive:hover {
+  background-color: #66c7b4;
+  border-color: #66c7b4;
+}
+
+.button_default {
+  margin-top: 10px;
+}
+
+.danger {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: green;
+}
+
+.form__label {
+  margin-top: 0.5rem;
+  padding-bottom: 0.3rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  color: #5d6163;
+}
+
+.form__input-text,
+.form__input-date,
+.form__select {
+  height: 30px;
+  padding-left: 5px;
+  font-size: 14px;
+  color: #818486;
+}
+
+.form__input-text,
+.form__input-date {
+  border-radius: 5px;
+  border: 1px solid #bababa;
+}
+
+.form__select {
+  background-color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
