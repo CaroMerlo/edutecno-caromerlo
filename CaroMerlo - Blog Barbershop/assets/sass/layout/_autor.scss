@@ -1,0 +1,36 @@
+.autor {  
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: $large;
+    font-family: $Roboto;    
+    height: 300px;
+}
+
+
+.autor__imagen {
+
+   width: 200px;
+   height: 200px;
+   display: inline-block;
+   background-image: url(../img/naomi-thai.png);
+   border-radius: 50%;
+   background-size: cover;
+   background-position: center;
+   position:absolute ;
+    
+}   
+
+.autor__link {
+    &:hover {
+        color: $nickrl;
+   
+      } 
+     
+     }
+
+   
+.autor__h3 {    
+    font-size: $x-large;
+}

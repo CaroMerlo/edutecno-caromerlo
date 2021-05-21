@@ -1,26 +1,23 @@
 button {
     padding: 0.7rem 2rem;
     border-radius: 25px;
-    font-family: $open-sans;
+    font-family: $Roboto;
     font-size: $small;
-    color: $white;
-    
+    color: $white;    
+    background-color: $nickrl;
     
     &:hover {
-      background-color: $salmon;
-      border-color: $salmon;
-      color: $black-olive;
+      background-color: $light-gray;
+      border-color: $light-gray;
+      //color: $raisin-black;
     }
+
+    &:focus {
+      background-color: $nickrl;
+      box-shadow: 0 0 0 4px $light-gray;      
+         }
   }
-  
-  .button_positive {
-    background-color: gray;
-    border-color: $verdigris;
-    &:hover {
-      background-color: $medium-aquamarine;
-      border-color: $medium-aquamarine;
-    }
-  }
+   
   
   .button_default {
     margin-top: 10px;

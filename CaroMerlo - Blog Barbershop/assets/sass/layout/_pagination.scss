@@ -1,0 +1,32 @@
+.pagination {
+    color:$raisin-black;
+
+    &:hover {
+        background-color: $light-gray;
+        border-color: $light-gray;
+        color:$raisin-black;
+     }
+
+     &:focus {
+        background-color: $nickrl;
+        color:$raisin-black;
+           }
+}
+
+.page-link {
+    color:$raisin-black;
+}
+
+.pag__buton-left {
+    //color: $raisin-black;
+    border-top-left-radius : 10em;
+    border-bottom-left-radius: 10em; 
+  
+}
+
+.pag__buton-right {  
+    //color: $Raisin-black;
+    border-top-right-radius : 10em;
+    border-bottom-right-radius: 10em ;   
+      
+}
