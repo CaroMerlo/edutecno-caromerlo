@@ -1,0 +1,47 @@
+/* Column Drop */
+.container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    width: 100%;
+    }
+    .columna1,
+    .columna2 {
+    width: 100%;
+    }
+    @media (min-width: 600px) {
+    .columna1 {
+    width: 100%;
+    -webkit-order: 1;
+    order: 1;
+    }
+    .columna2 {
+    width: 100%;
+    -webkit-order: 2;
+    order: 2;
+    }
+    
+    }
+    @media (min-width: 800px) {
+    .columna1 {
+    width: 40%;
+    -webkit-order: 1;
+    order: 1;
+    }
+    .columna2 {
+        width: 60%;
+        -webkit-order: 2;
+        order: 2;
+       
+        }
+    }
+
+.columna1 {
+    //background-image: url("../../assets/img/imagen1.png");
+       
+}
+.columna2 {
+    background-image: url("../../assets/img/imagen1.png");
+ 
+}
