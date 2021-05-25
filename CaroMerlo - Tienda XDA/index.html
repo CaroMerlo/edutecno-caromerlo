@@ -2,58 +2,91 @@
 <html>
 
 <head>
-    <title>Mostly Fluid</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+  <title>Mostly Fluid</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
 
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-lg">    
-        <div class="container">
-         <!-- <a class="navbar-brand" href="#"> <img src="assets/img/guia-de-estilos.png" alt="Logo" width="100px"> </a> --> LOGO
-          <button class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div id="navbarNav" class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#inicio">Mujer</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#prod">Hombre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Accesorios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Blog</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav> 
-
-
+  <nav class="navbar navbar-light navbar-expand-lg">
     <div class="container">
-         <section class="columna2"> <!-- Imagen -->
+      <!-- <a class="navbar-brand" href="#"> <img src="assets/img/guia-de-estilos.png" alt="Logo" width="100px"> </a> -->
+      <div class="nav__img text-center justify-content-center ">
+        <H1>XDA</H1>
+      </div>
 
-        </section>
-        <section class="columna1">Sección 1
-            TITULO 
-           
-        </section>
+      <button class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbarNav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio">Mujer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#prod">Hombre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Accesorios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Blog</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
+
+
+  <div class="container">
+    <section class="columna2">
+      <!-- Imagen -->
+      <img class="card-img-top embed-responsive-item" src="assets/img/imagen1.png" alt="...">
+    </section>
+
+    <section class="columna1">
+      <div class="container mt-4 p-5">
+        <div></div>
+        <h2>LOREM IPSUM AD VALOREM</h2> 
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quaerat id voluptasLorem ipsum dolor sit amet
+          consectetur adipisicing elit. Soluta quaerat id voluptas consectetur adipisicing elit. Soluta quaerat id voluptas.</P>
+        <button> Ir a tienda</button>
+      </div>
+
+      <div class="section" style=" display: inline-block;" >
+      
+          <div class="secction_newsletter" style="float: left;">
+            <h3 class="text-white">Newsletter</h3>
+            <br>
+            <h5 class="text-white">Correo Electrónico</h5>
+            <form action="#" method="Post">
+              <input type="text" name="text" placeholder="Enter Your Email Id">           
+            </form>
+          </div>      
+
+         <!-- style="writing-mode: vertical-rl"  -->
+        <div class="secction_button" style="float: left;margin-top: 25%; margin-left: -35px;">
+          <button type="button" class="btn btn-default rotated">
+           <h5> Subscribir </h5> <i class="fa fa-envelope"></i></button>
+        </div>
+      </div>
+      
+    </section>
+  </div>
 </body>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
 
 </html>
