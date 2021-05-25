@@ -10051,10 +10051,15 @@ h6 {
   width: 90%;
   padding: 15%;
   background-color: #0C0910;
+  float: left;
 }
 
 .secction_button {
   width: 5%;
+  float: left;
+  margin-top: 25%;
+  margin-left: -35px;
+  font-style: 700;
 }
 
 /*# sourceMappingURL=styles.css.map */

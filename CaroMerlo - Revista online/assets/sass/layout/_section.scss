@@ -1,8 +1,11 @@
 
-
-.contenido {
-    width: 960px;
-    margin: 0 auto;
+.container {
+    width: 90%;
+    //padding: 20px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
 }
 
 .listad-noticias {
@@ -94,26 +97,18 @@
     grid-template-columns: repeat(12, 1fr);
     }
 
-    /* Diseño para celulares */
-    @media (max-width: 480px) {
-    .columna1, .columna2, .columna3 {
-        float:none;
-        width:100%;
-    }
-     }
-    /* Diseño para tabletas */ 
-    @media screen and (min-width: 800px) {
-        .columna1, .columna2 {
-            float:left;
-            width:50%;
-        }
-    }
-    
-    /* Diseño para PC */ 
-    @media screen and (min-width: 1025px) {
-        .columna1, .columna2, .columna3 {
-        float:left;
-        width:33%;
-    }
+     
+ .hero-section__right {
+    width: 20%;
+    padding: 40px;
+    float: left;
  }
-  
+
+ .hero-section__left {
+     width: 80%;
+     padding-right: -120px;
+ }
+
+ .hero-section__main-content{
+     margin: 20px;
+ }
