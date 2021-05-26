@@ -5,7 +5,6 @@
 
 body {
   font-family: monospace;
-  width: 100%;
 }
 
 h1,
@@ -13,9 +12,15 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: "Old Standard TT";
+h6,
+p {
+  font-family: "Lora";
   font-weight: 400;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .nav {
@@ -25,11 +30,10 @@ h6 {
 }
 
 .menu {
-  width: 100%;
-  margin-left: 5%;
-  border-bottom: 1px solid gray;
+  border-bottom: 2px solid #1f02a1;
   justify-content: center;
   display: flex;
+  text-align: center;
 }
 
 .logo {
@@ -256,6 +260,11 @@ h6 {
   text-align: center;
 }
 
+.hero-section__container {
+  width: 100%;
+  text-align: center;
+}
+
 .listad-noticias {
   width: 700px;
   float: left;
@@ -269,8 +278,8 @@ h6 {
 }
 
 .cuerpo img {
-  width: 210px;
-  height: 300px;
+  width: 250px;
+  height: 320px;
 }
 
 .cuerpo p {
@@ -283,12 +292,13 @@ h6 {
 }
 
 .cabecera-listado {
-  width: 220px;
-  border-bottom: 1px solid gray;
+  border-bottom: 3px solid #1f02a1;
+  text-align: center;
 }
 
 .tags {
-  border-bottom: 1px solid gray;
+  border-bottom: 3px solid #1f02a1;
+  text-align: center;
 }
 
 .tags ul {
@@ -304,7 +314,7 @@ h6 {
 }
 
 .noticias-destacadas {
-  margin-bottom: 50px;
+  text-align: center;
 }
 
 .noticias-destacadas img {
@@ -351,12 +361,97 @@ h6 {
 .hero-section__left {
   width: 80%;
   padding-right: -120px;
+  text-align: center;
 }
 
 .hero-section__main-content {
   margin: 20px;
 }
 
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .hero-section__right {
+    width: 20%;
+    display: block;
+  }
+
+  .hero-section__left {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .hero-section__right {
+    display: none;
+  }
+
+  .hero-section__left {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .hero-section__left {
+    width: 100%;
+  }
+
+  .hero-section__right {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .cuerpo img {
+    width: 100%;
+  }
+
+  .hero-section__container {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .hero-section__main-content {
+    width: 100%;
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .hero-section__left {
+    width: 100%;
+  }
+
+  .hero-section__right {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .cuerpo img {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .hero-section__container {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .hero-section__main-content {
+    width: 100%;
+    margin: 0px;
+  }
+}
 .footer {
   width: 90%;
   position: relative;

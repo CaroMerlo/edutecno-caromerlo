@@ -5,13 +5,11 @@
 }
 
 .menu {
-    width: 100%;
-    //@error: 10px;
-    //margin-left: 60px;
-    margin-left: 5%;
-    border-bottom: 1px solid gray;
+    //margin-left: 5%;
+    border-bottom: 2px solid rgb(31, 2, 161);
     justify-content: center;
     display: flex;
+    text-align: center;
 }
 
 .logo {
