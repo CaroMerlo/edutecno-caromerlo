@@ -4,27 +4,26 @@
     text-align: right;
 }
 
-.menu {
-    //margin-left: 5%;
+.nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav__menu {    
     border-bottom: 2px solid rgb(31, 2, 161);
     justify-content: center;
     display: flex;
     text-align: center;
 }
 
-.logo {
+.nav__logo {
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
     display: inline-block;
 }
 
-.nav ul li a {
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.input-menu {
+.nav__input-menu {
     border-radius: 10%;
 }
 

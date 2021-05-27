@@ -29,26 +29,26 @@ h1 {
   text-align: right;
 }
 
-.menu {
+.nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav__menu {
   border-bottom: 2px solid #1f02a1;
   justify-content: center;
   display: flex;
   text-align: center;
 }
 
-.logo {
+.nav__logo {
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
   display: inline-block;
 }
 
-.nav ul li a {
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.input-menu {
+.nav__input-menu {
   border-radius: 10%;
 }
 
@@ -265,86 +265,44 @@ h1 {
   text-align: center;
 }
 
-.listad-noticias {
-  width: 700px;
-  float: left;
+.section__cuerpo img {
+  width: 100%;
+  height: 50%;
 }
 
-.noticia {
-  width: 210px;
-  display: inline-block;
-  margin: 5px;
-  cursor: pointer;
-}
-
-.cuerpo img {
-  width: 250px;
-  height: 320px;
-}
-
-.cuerpo p {
+.section__cuerpo p {
   padding: 5px 10px;
 }
 
-.listado-izquierdo {
-  width: 220px;
-  float: right;
-}
-
-.cabecera-listado {
+.section__cabecera-listado {
   border-bottom: 3px solid #1f02a1;
   text-align: center;
 }
 
-.tags {
+.section__tags {
   border-bottom: 3px solid #1f02a1;
   text-align: center;
 }
 
-.tags ul {
+.section__tags ul {
   padding: 0;
   list-style: none;
 }
 
-.tags ul li {
+.section__tags ul li {
   padding: 2px 4px;
   background-color: steelblue;
   margin-right: 1px;
   color: white;
 }
 
-.noticias-destacadas {
+.section__noticias-destacadas {
   text-align: center;
 }
 
-.noticias-destacadas img {
+.section__noticias-destacadas img {
   width: 220px;
   height: 200px;
-}
-
-.newsletter {
-  width: 960px;
-  background-color: #f2f4f5;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.newsletter h2 {
-  font-size: 24px;
-}
-
-.group input,
-.group button {
-  display: inline-block;
-  border-width: 0;
-  font-size: 13px;
-  padding: 5px 10px;
-}
-
-.group button {
-  background-color: coral;
-  color: white;
 }
 
 .row {
@@ -408,10 +366,6 @@ h1 {
     padding: 0px;
   }
 
-  .cuerpo img {
-    width: 100%;
-  }
-
   .hero-section__container {
     width: 100%;
     margin: 0px;
@@ -420,6 +374,10 @@ h1 {
   .hero-section__main-content {
     width: 100%;
     margin: 0px;
+  }
+
+  .cuerpo img {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 340px) {
@@ -440,6 +398,7 @@ h1 {
     width: 100%;
     margin: 0px;
     padding: 0px;
+    height: 50%;
   }
 
   .hero-section__container {
@@ -450,6 +409,7 @@ h1 {
   .hero-section__main-content {
     width: 100%;
     margin: 0px;
+    height: 50%;
   }
 }
 .footer {
@@ -471,15 +431,15 @@ h1 {
   clear: both;
 }
 
-.group input,
-.group button {
+.footer__group input,
+.footer__group button {
   display: inline-block;
   border-width: 0;
   font-size: 13px;
   padding: 5px 10px;
 }
 
-.group button {
+.footer__group button {
   background-color: coral;
   color: white;
 }
