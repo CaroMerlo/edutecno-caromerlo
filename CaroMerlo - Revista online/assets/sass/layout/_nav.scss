@@ -10,6 +10,7 @@
 }
 
 .nav__menu {    
+    margin-left: 100px;
     border-bottom: 2px solid rgb(31, 2, 161);
     justify-content: center;
     display: flex;
@@ -27,3 +28,10 @@
     border-radius: 10%;
 }
 
+@media only screen and (max-width: 500px) {
+      
+    .nav__menu  {
+      margin: 0px;
+
+    }
+ }

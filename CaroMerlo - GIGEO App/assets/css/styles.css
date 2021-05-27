@@ -9989,7 +9989,12 @@ h6 {
 
 @media only screen and (max-width: 500px) {
   .container_img {
+    width: 100%;
+    margin: 0px;
+    height: 150px;
+    overflow: hidden;
     position: relative;
+    top: -80px;
   }
 }
 button {
