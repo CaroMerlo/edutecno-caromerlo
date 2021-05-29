@@ -1,29 +1,15 @@
-button {
-    padding: 0.7rem 2rem;
-    border-radius: 25px;
-    font-family: $Roboto;
-    font-size: $small;
-    color: $white;    
-    background-color: $nickrl;
-    
-    &:hover {
-      background-color: $light-gray;
-      border-color: $light-gray;
-      //color: $raisin-black;
-    }
-
-    &:focus {
-      background-color: $nickrl;
-      box-shadow: 0 0 0 4px $light-gray;      
-         }
-  }
+button { 
+  font-family: $Roboto;
+  font-size: $small; 
+  border: none;
+  padding: 0.7rem 2rem;
    
-  
-  .button_default {
-    margin-top: 10px;
+  &:hover {
+    background-color: $light-gray;   
+    //color: $raisin-black;
   }
-  
-  .danger {
-    @include important-text;
-    background-color: green;
-  }
+
+  &:focus {
+    background-color: $nickrl;         
+       }
+}
