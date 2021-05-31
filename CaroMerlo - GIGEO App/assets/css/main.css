@@ -10087,12 +10087,6 @@ p {
   background-color: #ee7a57;
 }
 
-.profile__item-right {
-  display: flex;
-  justify-content: flex-end;
-  width: 49%;
-}
-
 @media only screen and (max-width: 500px) {
   .profile__item-right {
     display: none;
@@ -10126,9 +10120,8 @@ p {
 }
 button {
   font-family: "Roboto", sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   border: none;
-  padding: 0.7rem 2rem;
 }
 button:hover {
   background-color: #D1D1D1;
@@ -10137,4 +10130,4 @@ button:focus {
   background-color: #6c6e70;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=main.css.map */
