@@ -9966,7 +9966,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Spartan", sans-serif;
 }
 
 h1 {
@@ -10022,7 +10022,7 @@ p {
   }
 }
 .header {
-  font-family: "Roboto", sans-serif;
+  font-family: "Spartan", sans-serif;
   overflow: hidden;
 }
 
@@ -10125,7 +10125,7 @@ p {
   }
 }
 button {
-  font-family: "Roboto", sans-serif;
+  font-family: "Spartan", sans-serif;
   font-size: 12px;
   border: none;
   padding: 0.7rem 2rem;
