@@ -1,0 +1,14 @@
+nav{
+    background-color:$Sable;
+    color: $white;
+    height:60px;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.nav__logo {
+height: 40px;
+width: 40px;
+}

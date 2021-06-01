@@ -2,15 +2,16 @@
 @import "abstracts/variables";
 //@import "abstracts/mixins";
 
-//@import "vendors/bootstrap_v4.6/bootstrap";
+@import "vendors/bootstrap_v4.6/bootstrap";
 
 //@import "base/reset";
 @import "base/base";
 @import "base/typography";
 
-@import "layout/navigation";
-@import "layout/header";
-@import "layout/grid";
+@import "layout/nav";
+@import "layout/banner";
+@import "layout/section";
+@import "layout/aside";
 @import "layout/footer";
 
 
