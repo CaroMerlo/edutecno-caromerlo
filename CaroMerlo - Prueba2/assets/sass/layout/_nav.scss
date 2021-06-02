@@ -6,9 +6,14 @@ nav{
     grid-column-end: -1;
     align-items: center;
     padding-left: 10px;
-}
+
+    }
 
 .nav__logo {
 height: 40px;
 width: 40px;
+}
+
+.navbar-toggler {
+    background-color: $white;
 }

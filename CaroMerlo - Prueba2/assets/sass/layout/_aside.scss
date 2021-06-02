@@ -8,9 +8,15 @@ aside {
 }
 
 aside img {
-    width: 20%;
-    height: 30%;
+    width: 100px;
+    height: 130px;
     padding-top: 10px;
+}
+
+aside .aside__animacion {
+    width: 180px;
+    height: 210px;
+
 }
 
 .aside__titulo-destacado {
@@ -19,4 +25,17 @@ aside img {
     color: $white;
     font-size:$small ;
     font-weight:$regular;
+}
+
+.aside__links {
+    text-align: left; 
+    color:rgb(51, 51, 119) ;
+    list-style-type: circle; 
+    list-style-position:inside;
+    padding-left: 10px;
+    a {
+       color: rgb(78, 78, 151);
+       font-size:$x-small;
+       font-weight:$bold;
+     }
 }

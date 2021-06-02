@@ -9987,6 +9987,10 @@ nav {
   width: 40px;
 }
 
+.navbar-toggler {
+  background-color: #FFFFFF;
+}
+
 .banner {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -10012,9 +10016,14 @@ aside {
 }
 
 aside img {
-  width: 20%;
-  height: 30%;
+  width: 100px;
+  height: 130px;
   padding-top: 10px;
+}
+
+aside .aside__animacion {
+  width: 180px;
+  height: 210px;
 }
 
 .aside__titulo-destacado {
@@ -10025,6 +10034,19 @@ aside img {
   font-weight: 400;
 }
 
+.aside__links {
+  text-align: left;
+  color: #333377;
+  list-style-type: circle;
+  list-style-position: inside;
+  padding-left: 10px;
+}
+.aside__links a {
+  color: #4e4e97;
+  font-size: 12px;
+  font-weight: 700;
+}
+
 footer {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -10032,6 +10054,15 @@ footer {
   height: 60px;
 }
 
+@media only screen and (max-width: 700px) {
+  .container section {
+    grid-column: 1/3;
+  }
+
+  .container aside {
+    grid-column: 1/3;
+  }
+}
 button {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
