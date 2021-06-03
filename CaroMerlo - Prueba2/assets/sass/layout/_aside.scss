@@ -9,14 +9,16 @@ aside {
 
 aside img {
     width: 100px;
-    height: 130px;
-    padding-top: 10px;
+    height: 100px;
+    padding-top: 20px;
+    margin: 10px;
+    border-radius: 50%;
+    border:1px solid #CCCCCC;
 }
 
 aside .aside__animacion {
     width: 180px;
     height: 210px;
-
 }
 
 .aside__titulo-destacado {

@@ -1,9 +1,25 @@
 section { 
     grid-column: span 1;
-   
+    padding: 10px;
+    justify-content: center;
+    
  }
 
-section p { 
-    
+section p {     
     font-size: $x-small;
 }
+
+section .seccion__icon {    
+    margin-left:5px;
+}
+
+.section__img {
+    display:block;
+    width: 100%;
+    margin:auto;
+}
+
+section h2 {
+    padding-top: 10px;
+}
+

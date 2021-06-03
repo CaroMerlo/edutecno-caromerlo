@@ -9947,6 +9947,10 @@ h3 {
   grid-template-rows: repeat(4, auto);
 }
 
+p {
+  line-height: 20px;
+}
+
 h1,
 h2,
 h3,
@@ -9991,6 +9995,15 @@ nav {
   background-color: #FFFFFF;
 }
 
+.nav-link {
+  color: #FFFFFF !important;
+}
+
+@media only screen and (max-width: 700px) {
+  .nav-link {
+    color: #000000 !important;
+  }
+}
 .banner {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -10001,10 +10014,26 @@ nav {
 
 section {
   grid-column: span 1;
+  padding: 10px;
+  justify-content: center;
 }
 
 section p {
   font-size: 12px;
+}
+
+section .seccion__icon {
+  margin-left: 5px;
+}
+
+.section__img {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+section h2 {
+  padding-top: 10px;
 }
 
 aside {
@@ -10017,8 +10046,11 @@ aside {
 
 aside img {
   width: 100px;
-  height: 130px;
-  padding-top: 10px;
+  height: 100px;
+  padding-top: 20px;
+  margin: 10px;
+  border-radius: 50%;
+  border: 1px solid #CCCCCC;
 }
 
 aside .aside__animacion {
