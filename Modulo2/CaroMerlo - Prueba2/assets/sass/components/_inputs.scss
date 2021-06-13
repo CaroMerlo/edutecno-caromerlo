@@ -1,0 +1,9 @@
+.footer__input{
+    background-color: $white;
+    font-family: $Poppins;
+    font-size: $small;
+    
+    &:focus {
+        background-color: $Tangerine;
+    }
+}

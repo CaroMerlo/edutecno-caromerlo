@@ -1,0 +1,15 @@
+button {
+    background-color: $Tangerine;
+    font-family: $Poppins;
+    font-size: $small;
+    border: none;
+    padding: 0.5rem 1rem;
+    width: 80px;
+    &:hover {
+        background-color: $white;
+        //color: $raisin-black;
+    }
+    &:focus {
+        background-color: $Tangerine;
+    }
+}

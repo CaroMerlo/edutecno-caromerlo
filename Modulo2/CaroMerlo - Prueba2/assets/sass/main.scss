@@ -1,0 +1,20 @@
+// main.scss # Manifest File
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+@import "vendors/bootstrap_v4.6/bootstrap";
+
+@import "base/animaciones";
+@import "base/base";
+@import "base/typography";
+
+@import "layout/nav";
+@import "layout/banner";
+@import "layout/section";
+@import "layout/aside";
+@import "layout/footer";
+@import "layout/grid";
+
+
+@import "components/buttons";
+@import "components/inputs";

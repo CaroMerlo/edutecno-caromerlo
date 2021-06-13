@@ -1,0 +1,63 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.carousel-indicators {
+    bottom: 50px;
+    
+}
+
+.carousel-indicators li {
+    height: 10px;
+}
+
+  body {
+    background-color: #000000;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto; 
+    
+  }
+
+  .nav{
+    position: relative;
+    z-index: 1000;
+    background-color: transparent;
+ }
+
+ .header {
+    background: url(../img/carousel1.jpg) no-repeat center;
+    
+    }
+  
+
+  .header .navbar {
+    background-color: transparent !important;
+  }
+
+  .fondo-cel
+  {
+    background-color:#6495ed;
+  }
+
+ .titSeccion2
+ {
+  background-color: #6495ed;
+  margin-bottom: 10px; 
+ }
+
+ .dropdown-divider {
+    border-color:#6495ed;
+ }
+
+ .container {
+    padding: 30px;
+ }
+
+ .imgCard{
+  width:245px;
+  height:160px;
+  object-fit: cover;
+  object-position: center center;
+ }
+
