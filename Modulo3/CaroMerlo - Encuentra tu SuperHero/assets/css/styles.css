@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    align-items: center;
+ }
+
+ .container {    
+    display: flex;    
+}
+
+.hero{      
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px ;
+}
+
+.busqueda {
+  text-align: center;    
+}
+
+.secctionHero{
+    float: left;
+    width: auto;
+    padding: 20px;
+    width: 50%;
+}
+
+.secctionGraf  {
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-top: -500px;
+}

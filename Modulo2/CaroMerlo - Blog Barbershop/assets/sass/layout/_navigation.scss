@@ -1,0 +1,46 @@
+nav {
+    
+    overflow: hidden;
+    background-color: $raisin-black;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    ul {
+      text-align: right;
+      list-style-type: none;
+      list-style-type: none;
+      margin: 0;
+      padding: 15px;
+      display: inline;   
+      
+      li {
+        display: inline; 
+        img {       
+          text-align: left;
+          width: 20px;        
+          }       
+  
+        a {               
+          color: #f2f2f2;        
+          padding: 14px;
+          &:hover {
+            background-color: #111;
+          }
+        }          
+      }
+    }
+  }
+  
+  .content {
+    text-align: right;
+  }
+  
+  .nav_hero{
+    text-align: right; 
+  }
+  
+  .paginacion_cont {
+     
+    padding: 30px;  
+    background-color: rgb(235, 222, 222);
+  }

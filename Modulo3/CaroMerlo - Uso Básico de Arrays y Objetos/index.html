@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Centro Médico Ñuñoa</title>
+    <style>
+        table {
+            table-layout: fixed;
+            width: 90%;
+            border-collapse: collapse;
+            border: 3px solid black;
+            margin-left: 5%;
+            text-align: center;
+        }
+
+        thead th:nth-child(1) {
+            width: 30%;
+        }
+
+        th {
+            background-color: #e6f2f7;
+            border: 1px solid black;        
+        }
+
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            height: 20px;
+        }
+
+        .espacio{
+					height:5px;
+				}
+        
+         .espacio2{
+					height:30px;
+				}
+    </style>
+
+</head>
+
+<body>
+    <table class='table' id="cuerpo-tabla">
+    </table>
+
+    <script>
+        var especialidad = [
+            {   nombre: 'Radiología', agenda: [
+                    { hora: '11:00', especialista: 'IGNACIO SCHULZ', paciente: 'FRANCISCA ROJAS', rut: '9878782-1', prevision: 'FONASA' },
+                    { hora: '11:30', especialista: 'FEDERICO SUBERCASEAUX', paciente: 'PAMELA ESTRADA', rut: '15345241-3', prevision: 'ISAPRE' },
+                    { hora: '15:00', especialista: 'FERNANDO WURTHZ', paciente: 'ARMANDO LUNA', rut: '16445345-9', prevision: 'ISAPRE' },
+                    { hora: '15:30', especialista: 'ANA MARIA GODOY', paciente: 'MANUEL GODOY', rut: '17666419-0', prevision: 'FONASA' },
+                    { hora: '16:00', especialista: 'PATRICIA SUAZO', paciente: 'RAMON ULLOA', rut: '14989389-K', prevision: 'FONASA' },
+                ]},
+            {   nombre: 'Dental', agenda: [
+                    { hora: '8:30', especialista: 'ANDREA ZUÑIGA', paciente: 'MARCELA RETAMAL', rut: '9878782-1', prevision: 'ISAPRE' },
+                    { hora: '11:00', especialista: 'MARIA PIA ZAÑARTU', paciente: 'ANGEL MUÑOZ', rut: '9878782-1', prevision: 'ISAPRE' },
+                    { hora: '11:30', especialista: 'SCARLETT WITTING', paciente: 'MARIO KAST', rut: '7998789-5', prevision: 'FONASA' },
+                    { hora: '13:00', especialista: 'FRANCISCO VON TEUBER', paciente: 'KARIN FERNANDEZ', rut: '18887662-K', prevision: 'FONASA' },
+                    { hora: '13:30', especialista: 'EDUARDO VIÑUELA', paciente: 'HUGO SANCHEZ', rut: '17665461-4', prevision: 'FONASA' },
+                    { hora: '14:30', especialista: 'RAQUEL VILLASECA', paciente: 'ANA SEPULVEDA', rut: '14441281-0', prevision: 'ISAPRE' }
+                   
+                ] },
+            {   nombre: 'Traumatologia', agenda: [
+                    { hora: '08:00', especialista: 'MARIA PAZ ALTUZARRA', paciente: 'PAULA SANCHEZ', rut: '15554774-5', prevision: 'FONASA' },
+                    { hora: '10:00', especialista: 'RAUL ARAYA', paciente: 'ANGÉLICA NAVAS', rut: '15444147-9', prevision: 'ISAPRE' },
+                    { hora: '10:30', especialista: 'MARIA ARRIAGADA', paciente: 'ANA KLAPP', rut: '17879423-9', prevision: 'ISAPRE' },
+                    { hora: '11:00', especialista: 'ALEJANDRO BADILLA', paciente: 'FELIPE MARDONES', rut: '17879423-9', prevision: 'ISAPRE' },
+                ]}];
+
+        var entries = Object.entries(especialidad);
+        console.log(especialidad);
+      
+        var texto = "<tr>";
+        for (var i = 0; i < especialidad.length; i++) {
+            //Imprimir titulos
+            texto += `<th colspan= '5'>Especialidad:${especialidad[i].nombre}</th></tr>`;
+            var a = especialidad[i].agenda[0];//primera cita
+            var b = especialidad[i].agenda[especialidad[i].agenda.length - 1];//ultima cita
+            texto += "<th colspan= '5' >Primera atención:" + a.paciente + "-" + a.prevision + "| Última atención:" + b.paciente + "-" + b.prevision + "</th>";
+            texto += "<tr class= espacio></tr>"
+            //Imprimir titulos tabla
+            texto += "<tr><th>Hora</th><th>Especialista</th><th>Paciente</th><th>Rut</th><th>Prevision</th></tr>";
+            for (var e in especialidad[i].agenda) {
+                texto += `<tr>                                               
+                     <td>${especialidad[i].agenda[e].hora}</td>  
+                     <td>${especialidad[i].agenda[e].especialista}</td>  
+                     <td>${especialidad[i].agenda[e].paciente}</td>  
+                     <td>${especialidad[i].agenda[e].rut}</td>     
+                     <td>${especialidad[i].agenda[e].prevision}</td>   
+                     </tr>`;
+            };
+            texto += "<tr class= espacio2></tr>"
+        };
+        document.getElementById("cuerpo-tabla").innerHTML = texto;
+    </script>
+</body>
+
+</html

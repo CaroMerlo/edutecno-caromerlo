@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 3</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <h2>
+                Resultado: <span class="resultado"></span>
+            </h2>
+            <div>
+                <div>
+                    <div>
+                        <label for="">Valor 1</label>
+                        <input id="valor1" type="text">
+                    </div>
+                    <div>
+                        <label for="">Valor 2</label>
+                        <input id="valor2" type="text">
+                    </div>
+                    <div style="display: flex">
+                        <button id="btn-sumar" type="button">
+                            Sumar
+                        </button>
+                        <button id="btn-restar" type="button">
+                            Restar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Escríbe aquí tu código
+        var miBtn = document.getElementById("btn-sumar");
+        miBtn.addEventListener('click', function () {
+            //cuerpo de la función anónima que se ejecuta al hacer click
+            var num1 = document.getElementById("valor1").value;
+            var num2 = document.getElementById("valor2").value;
+
+            if (isNaN(num1) || isNaN(num2))
+                var resul = "Introducir dos números válidos";
+            else
+                var resul = parseFloat(num1) + parseFloat(num2);
+
+            document.querySelector(".resultado").innerHTML = resul;
+        });
+
+        var miBtn = document.getElementById("btn-restar");
+        miBtn.addEventListener('click', function () {
+            //cuerpo de la función anónima que se ejecuta al hacer click
+            var num1 = document.getElementById("valor1").value;
+            var num2 = document.getElementById("valor2").value;
+            if (isNaN(num1) || isNaN(num2))
+                resul = "Introducir dos números válidos";
+            else {
+                var resul = parseFloat(num1) - parseFloat(num2);
+                if (resul < 0)
+                    resul = 0;
+            }
+
+            document.querySelector(".resultado").innerHTML = resul;
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+.card {
+    width: 16rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.section-card {
+    justify-content: center;
+    //text-align: left;
+    width: 100%;
+    //border: 40px;
+    //padding-right: 20px;
+}
+
+.row {
+    text-align: center;
+}
+
+.row__titulo {
+    //padding-left: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+    .row {
+        margin: 0px;
+    }
+    .row__titulo {
+        padding-left: 0px;
+        text-align: center;
+    }
+    //  .card {
+    //     width: 20rem;
+    //  }
+}

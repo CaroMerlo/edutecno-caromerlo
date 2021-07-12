@@ -1,0 +1,42 @@
+.profile {
+    display: flex;
+    /* Por defecto en modo fila, uno al lado del otro */
+    flex-flow: row wrap;
+    margin: 0px;
+    padding: 0 auto;
+}
+
+.profile__item {
+    display: flex;
+    flex: 1 1 auto;
+    //width: 49%;
+}
+
+.profile__img {
+    position: absolute;
+    background-repeat: no-repeat;
+    //background-position: 50px;
+    border-radius: 50%;
+    width: 80px;
+}
+
+.profile__button-msj {
+    background-color: rgb(212, 229, 236);
+    //width: 40px  
+}
+
+.profile__button-seguir {
+    background-color: rgb(238, 122, 87);
+}
+
+.profile__item-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 49%;
+ }
+
+@media only screen and (max-width: 500px) {
+    .profile__item-right {
+        display: none;
+    }
+}

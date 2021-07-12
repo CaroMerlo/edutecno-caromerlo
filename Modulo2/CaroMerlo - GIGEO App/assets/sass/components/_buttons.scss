@@ -1,0 +1,13 @@
+button {
+    font-family: $Spartan;
+    font-size: $small;
+    border: none;
+    padding: 0.7rem 2rem;
+    &:hover {
+        background-color: $light-gray;
+        //color: $raisin-black;
+    }
+    &:focus {
+        background-color: $nickrl;
+    }
+}
