@@ -1,6 +1,5 @@
 <template>
-  <div class="hellovue">
-   
+  <div class="hellovue">   
     {{ message1 }}
     <button @click="clickGuardar">Llamar al padre</button>
   </div>
